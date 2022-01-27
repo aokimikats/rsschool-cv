@@ -40,8 +40,24 @@
 
 ---
 ## Code examples:
-```js
+**Highest and Lowest KATA from codewars.**
 
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+### Examples
+```js
+highAndLow("1 2 3 4 5");  // return "5 1"
+highAndLow("1 2 -3 4 5"); // return "5 -3"
+highAndLow("1 9 3 4 -5"); // return "9 -5"
+```
+
+```js
+function highAndLow(numbers){
+  // Convert string to array by splitting
+  numArray = numbers.split(' ');
+  // Return string with highest and lowest values
+  return `${Math.max(...numArray)} ${Math.min(...numArray)}`;
+}
 ```
 
 ---
