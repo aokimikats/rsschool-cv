@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 220, 246);
+    box-shadow: 0px 0px 30px rgb(255, 200, 241);
+    border: 5px solid rgb(252, 147, 226);
+}
+
+.main-content__article > h1 {
+    font-size: 1.5rem;
+}
+
+.main-content__article > p {
+    margin-bottom: 0;
+}
+
+.main-content__article img {
+    border: 5px dotted rgb(252, 147, 226);
+}
+
+.main-content__article > figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
