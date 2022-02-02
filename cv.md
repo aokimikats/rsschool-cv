@@ -40,7 +40,7 @@
 
 ---
 ## Code examples:
-**Highest and Lowest KATA from codewars.**
+**Random highest and Lowest KATA from codewars.**
 
 In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
